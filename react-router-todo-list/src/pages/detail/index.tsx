@@ -26,8 +26,7 @@ const ToDo = styled.div`
 
 export const Detail = () => {
   const navigate = useNavigate();
-  const { id } = useParams();
-  console.log(typeof id);
+  const { id }: any = useParams();
   const { toDoList, deleteToDo } = useContext(ToDoListContext);
   const toDo = toDoList[parseInt(id)];
 
