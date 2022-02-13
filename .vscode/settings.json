@@ -1,5 +1,15 @@
 {
   "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#673ab7",
+    "editor.selectionHighlightBackground": "#673ab7",
+    "editor.inactiveSelectionBackground": "#d50000",
+    "editor.lineHighlightBackground": "#6a0080",
+    "editor.lineHighlightBorder": "#6a0080",
+    "editor.findMatchBackground": "#ff5252",
+    "editor.findMatchHighlightBackground": "#ff5252",
+    "[Material Theme]": {
+      "sideBar.background": "#ffff5a"
+    },
     "activityBar.activeBackground": "#8259cb",
     "activityBar.activeBorder": "#61361e",
     "activityBar.background": "#8259cb",
@@ -8,15 +18,15 @@
     "activityBarBadge.background": "#61361e",
     "activityBarBadge.foreground": "#e7e7e7",
     "sash.hoverBorder": "#8259cb",
-    "statusBar.background": "#673ab7",
-    "statusBar.foreground": "#e7e7e7",
     "statusBarItem.hoverBackground": "#8259cb",
     "statusBarItem.remoteBackground": "#673ab7",
     "statusBarItem.remoteForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#673ab7",
-    "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveBackground": "#673ab799",
-    "titleBar.inactiveForeground": "#e7e7e799"
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#673ab7",
+    "statusBar.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#673ab7",
+    "titleBar.activeForeground": "#e7e7e7"
   },
   "peacock.color": "#673ab7"
 }
