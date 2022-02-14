@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import 'jest-styled-components';
 
-import { Router, useNavigate } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
 
 import { PageHeader } from './index';
@@ -87,7 +87,8 @@ describe('<PageHeader />', () => {
   //   );
 
   //   const goBack = screen.getByText('돌아가기');
-  //   userEvent.click(goBack);
+  //   expect(goBack).toBeInTheDocument();
+  //   fireEvent.click(goBack);
 
   //   const label = screen.getByText('할 일 목록');
   //   expect(label).toBeInTheDocument();
